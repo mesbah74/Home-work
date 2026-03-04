@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login - TechFlow</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+display:flex;
+height:100vh;
+background:rgb(242,242,242);
+}
+
+.sidebar{
+width:220px;
+background:rgb(47,47,47);
+color:white;
+padding-top:30px;
+}
+
+.logo{
+text-align:center;
+font-size:22px;
+margin-bottom:40px;
+}
+
+.menu a{
+display:block;
+padding:15px;
+padding-left:30px;
+color:white;
+text-decoration:none;
+}
+
+.menu a:hover{
+background:rgb(0,128,0);
+}
+
+.main{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.box{
+width:420px;
+background:white;
+padding:40px;
+border-radius:6px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+input{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:10px;
+}
+
+.loginBtn{
+width:100%;
+padding:12px;
+background:rgb(33,150,243);
+border:none;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="logo">TechFlow</div>
+
+<div class="menu">
+<a href="Login.html">Login</a>
+<a href="Reg.html">Registration</a>
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="box">
+
+<h2>Login</h2>
+
+<label>Email Address</label>
+<input type="email">
+
+<label>Password</label>
+<input type="password">
+
+<button class="loginBtn">Sign In</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
